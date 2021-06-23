@@ -1,35 +1,53 @@
-@import '_base.css';
+@import "_base.css";
 
-.outer_box{
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 100px auto 80px;
-    border: 1px solid blue;
+.outer_box {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 80px auto 80px;
 }
 
-.header{
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
-    padding: 1em;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 53, 83);
 }
 
-.question_cards{
-    height: 1000px;
+h1 {
+  color: whitesmoke;
+  text-align: center;
 }
 
-.info_footer{
-    border: 1px solid yellow;
+.question_cards {
+  height: 1000px;
 }
 
-.navbar{
-    display: flex;
-    border: 1px solid green;
-
+.info_footer {
+  background-color: rgb(53, 53, 83);
 }
 
-.content{
-    overflow-y: scroll;
-
+.iconbar {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
+.iconbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.material-icons,
+.material-icons-outlined {
+  font-size: 3rem;
+}
+
+.content {
+  overflow-y: scroll;
+}
