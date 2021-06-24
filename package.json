@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/patrikglanemann/Quiz-App/issues"
   },
-  "homepage": "https://github.com/patrikglanemann/Quiz-App#readme"
+  "homepage": "https://github.com/patrikglanemann/Quiz-App#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.1"
+  }
 }
