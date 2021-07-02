@@ -85,10 +85,6 @@
   top: -0.3em;
 }
 
-.quiz-card__bookmark--toggled {
-  color: var(--primary-color);
-}
-
 .quiz-card__question {
   margin: 1em 0em;
 }
