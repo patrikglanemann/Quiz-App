@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" />
-  <link rel="stylesheet" href="styles/index.css" />
-</head>
-
-<body class="outer_box">
-  <header class="header">
-    <h1>Create</h1>
-  </header>
-  <main class="content">
-  <form class="create_form">
-    <label class="label_question" for="add_question">Add Question</label>
-    <textarea class="txtarea_qna" name="add_question" id="add_question"></textarea>
-    <label class="label_answer" for="add_answer">Add Answer</label>
-    <textarea class="txtarea_qna" name="add_answer" id="add_answer" cols="30" rows="5"></textarea>
-    <label class="label_tags" for="add_tags">Add Tags</label>
-    <textarea class="txtarea_tags" name="add_tags" id="add_tags" cols="30" rows="2"></textarea>
-    <button class="button_submit" type="submit">Submit</button>
-  </form>
-  </main>
-  <footer class="info_footer">
-    <nav class="iconbar">
-      <a class="icon" href="index.html"><i class="material-icons-outlined">home</i></a>
-      <a class="icon" href="bookmark.html"><i class="material-icons-outlined">bookmark_border</i></a>
-      <a class="icon icon3" href="create.html"><i class="material-icons">article</i></a>
-      <a class="icon" href="profile.html"><i class="material-icons-outlined">account_circle</i></a>
-    </nav>
-
-  </footer>
-
-</body>
-
+  <body class="outer-grid">
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
+    </header>
+    <main class="content">
+      <form class="create_form">
+        <label class="label_question" for="add_question">Add Question</label>
+        <textarea
+          class="txtarea_qna"
+          name="add_question"
+          id="add_question"
+        ></textarea>
+        <label class="label_answer" for="add_answer">Add Answer</label>
+        <textarea
+          class="txtarea_qna"
+          name="add_answer"
+          id="add_answer"
+          cols="30"
+          rows="5"
+        ></textarea>
+        <label class="label_tags" for="add_tags">Add Tags</label>
+        <textarea
+          class="txtarea_tags"
+          name="add_tags"
+          id="add_tags"
+          cols="30"
+          rows="2"
+        ></textarea>
+        <button class="button_submit" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <nav class="iconbar">
+        <a class="icon" href="index.html"
+          ><i class="material-icons-outlined">home</i></a
+        >
+        <a class="icon" href="bookmark.html"
+          ><i class="material-icons-outlined">bookmark_border</i></a
+        >
+        <a class="icon icon--active" href="create.html"
+          ><i class="material-icons">article</i></a
+        >
+        <a class="icon" href="profile.html"
+          ><i class="material-icons-outlined">account_circle</i></a
+        >
+      </nav>
+    </footer>
+  </body>
 </html>

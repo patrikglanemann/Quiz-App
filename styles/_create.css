@@ -1,31 +1,29 @@
-.create_form{
-    display:flex;
-    flex-direction: column;
-    margin: 0 10vw;
+.create_form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
 }
 
-label{
-    margin: 3vh 0 0.5rem 0;
+label {
+  margin: 3vh 0 0.5rem 0;
 }
 
-
-.button_submit{
-    margin: 3vh 20vw;
-    padding: 1rem;
-    font-size: 1rem; 
+.button_submit {
+  margin: 3vh 20vw;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
-.txtarea_qna{
-
-    height: 15vh;
-    width: auto;
+.txtarea_qna {
+  height: 15vh;
+  width: auto;
 }
 
-.txtarea_tags{
-    height: 5vh;
-    width: auto;
+.txtarea_tags {
+  height: 5vh;
+  width: auto;
 }
 
-textarea:focus{
-    border: 1px solid var(--primaary-color);
+textarea:focus {
+  border: 1px solid var(--primary-color);
 }
