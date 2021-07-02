@@ -1,68 +1,6 @@
 @import "_base.css";
 @import "_colors.css";
 
-/*
-.outer_box {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 80px auto 80px;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primaary-color);
-}
-
-h1 {
-  color: var(--primary-text-color);
-  text-align: center;
-}
-
-.question_cards {
-  height: 1000px;
-}
-
-.info_footer {
-  background-color: var(--primaary-color);
-}
-
-.iconbar {
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.iconbar a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon {
-  text-decoration: none;
-  color: var(--icon-color);
-}
-
-.icon1,
-.icon2,
-.icon3,
-.icon4 {
-  background-color: var(--icon-bg-color);
-}
-
-.material-icons,
-.material-icons-outlined {
-  font-size: 3rem;
-}
-
-.content {
-  overflow-y: scroll;
-  background-color: var(--bg-color);
-}
-*/
-
 .outer-grid {
   height: 100vh;
   display: grid;
