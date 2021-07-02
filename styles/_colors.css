@@ -1,7 +1,11 @@
 :root {
   --primary-text-color: rgb(221, 228, 238);
-  --primaary-color: rgb(46, 66, 90);
+  --primary-color: rgb(46, 66, 90);
   --icon-color: rgb(221, 228, 238);
   --icon-bg-color: rgb(36, 43, 62);
   --bg-color: rgb(221, 228, 238);
+
+  --accent-color: #22b195;
+  --bg-color: whitesmoke;
+  --primary-font-color: whitesmoke;
 }
