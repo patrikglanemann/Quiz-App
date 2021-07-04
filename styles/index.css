@@ -69,7 +69,8 @@
   border: 1px solid var(--primary-color);
 }
 
-.quiz-card--opened {
+.quiz-card--opened > .quiz-card__answer {
+  display: none;
   border-color: var(--primary-color);
 }
 
