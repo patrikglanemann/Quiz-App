@@ -1,5 +1,6 @@
 @import "_base.css";
 @import "_colors.css";
+@import "_create.css";
 
 .outer-grid {
   height: 100vh;
@@ -69,7 +70,8 @@
   border: 1px solid var(--primary-color);
 }
 
-.quiz-card--opened {
+.quiz-card--opened > .quiz-card__answer {
+  display: none;
   border-color: var(--primary-color);
 }
 
@@ -102,7 +104,8 @@
 }
 
 .quiz-card__button--toggled {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .quiz-card__button:hover {
